@@ -11,66 +11,58 @@
     <title>The Pomodoro Timer</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <!-- jQuery first, then Bootstrap JS second -->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <!--          End Bootstrap add-ins, Thank you Bootstrap Team! -->
-    <!--my external links-->
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="timer.js"></script>
-    <!--    <audio>
-        <source src="http://www.myinstants.com/media/sounds/alert-hq.mp3">
-    </audio>-->
-    <!-- end my external links-->
-</head>
-
-<body>
-    <!--my external links-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="timer2.js"></script>
     <audio>
         <source src="http://www.myinstants.com/media/sounds/alert-hq.mp3">
     </audio>
     <!-- end my external links-->
+</head>
+
+<body>
     <div class="container">
-        <div id="content">
-            <h1 class="top-row" id="title">Pomodoro Timer</h1>
-            <div class="second-row">
-                <div class="col-xs-6 .col-md-4 text-primary">
-                    <h3 id="timer-title">Time Yourself:</h3>
-                    <div>
-                        <button class="in btn btn-default btn-md" id="minus-timer">-</button>
-                        <h4 class="in" id="timer">25</h4>
-                        <button class="in btn btn-default btn-md" id="plus-timer">+</button>
-                    </div>
-                </div>
-                <div class="col-xs-6 .col-md-4 text-primary">
-                    <h3 id="break-title">Break Time:</h3>
-                    <div>
-                        <button class="in btn btn-default btn-md" id="minus-break">-</button>
-                        <h4 class="in" id="break">5</h4>
-                        <button class="in btn btn-default btn-md" id="plus-break">+</button>
-                    </div>
+        <h1 class="title">Pomodoro Timer</h1>
+        <div class="second-row">
+            <div class="col-xs-6 .col-md-4 text-primary">
+                <h3 id="timer-title">Timer:</h3>
+                <div>
+                    <button class="btn btn-default btn-md" id="minus-timer">-</button>
+                    <h4 class="in" id="timer">25</h4>
+                    <button class="btn btn-default btn-md" id="plus-timer">+</button>
                 </div>
             </div>
-            <div class="text-center" id="clock">
-                <h1 id="productivity">Productivity</h1>
-                <h1 class="text-center" id="numbers">25:00</h1>
-            </div>
-            <div class=".col-xs-6 .col-sm-3  text-primary">
-                <button class="in btn btn-default btn-md" id="start-button">Start</button>
-            </div>
-            <div class=".col-xs-6 .col-sm-3  text-primary">
-                <button class="in btn btn-default btn-md" id="pause-button">Pause</button>
-            </div>
-            <div class=".col-xs-6 .col-sm-3  text-primary">
-                <button class="in btn btn-default btn-md" id="resume-button">Resume</button>
-            </div>
-            <div class=".col-xs-6 .col-sm-3  text-primary">
-                <button class="in btn btn-default btn-md" id="restart-button">Restart</button>
+            <div class="col-xs-6 .col-md-4 text-primary">
+                <h3 id="break-title">Break Time:</h3>
+                <div>
+                    <button class="btn btn-default btn-md" id="minus-break">-</button>
+                    <h4 class="in" id="break">5</h4>
+                    <button class="btn btn-default btn-md" id="plus-break">+</button>
+                </div>
             </div>
         </div>
+        <div class="text-center" id="clock">
+            <h1 id="productivity">Productivity</h1>
+            <h1 class="text-center" id="numbers">25:00</h1>
+        </div>
+        <div class=".col-xs-6 .col-sm-3  text-primary">
+            <button class="in btn btn-default btn-md" id="start-button">Start</button>
+        </div>
+        <div class=".col-xs-6 .col-sm-3  text-primary">
+            <button class="in btn btn-default btn-md" id="pause-button">Pause</button>
+        </div>
+        <div class=".col-xs-6 .col-sm-3  text-primary">
+            <button class="in btn btn-default btn-md" id="resume-button">Resume</button>
+        </div>
+        <div class=".col-xs-6 .col-sm-3  text-primary">
+            <button class="in btn btn-default btn-md" id="restart-button">Restart</button>
+        </div>
     </div>
+    </div>
+    <script src="timer.js"></script>
 </body>
 
 </html>

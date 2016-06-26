@@ -1,78 +1,86 @@
-body{
-  text-align: center;
-  margin: 0 auto;
-  font-size: 10px;
-  font-family: Montserrat;
-  font-family: Helvetica Neue, Helvetica, Arial;
-  background-color: #22262B;
-  color: white;
+body {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 10px;
+    font-family: Montserrat;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    background-color: #22262B;
+    color: white;
 }
 
-#content{
-  font-size: 10px;
-  font-family: Helvetica Neue, Helvetica, Arial;
-  max-width: 800px;
-  margin: 1em auto;
+#content {
+    font-size: 10px;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    max-width: 800px;
+    margin: 1em auto;
 }
 
-#clock{
-  height: 300px;
-  width: 300px;
-  margin: 20px auto;
-  border: 2px solid  #22262B;
-  box-shadow: 0 0 0px 2px SkyBlue;
-  border-radius: 100%;
-  cursor: pointer;
+#clock {
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid #22262B;
+    box-shadow: 0 0 0px 2px SkyBlue;
+    border-radius: 100%;
+    cursor: pointer;
 }
 
-#title{
-  color: white;
+#productivity {
+    margin-bottom: 20px auto;
 }
 
-h1{
-  font-size: 30px;
-  font-family: Pacifico;
-  margin-top: 40px
+.title {
+    font-size: 40px;
+    color: white;
 }
 
-h2{
-  font-size: 20px;
-  font-family: Pacifico;
+h1 {
+    font-size: 30px;
+    font-family: Pacifico;
+    margin-top: 40px
 }
 
-h3{
-  font-size: 20px;
+h2 {
+    font-size: 20px;
+    font-family: Pacifico;
 }
 
-
-.in{
-  display: inline-block;
-  margin: 5px;
+h3 {
+    font-size: 20px;
 }
 
-
-
-timers div{
-  display: inline-block;
-  margin: 0px 200px;
+.in {
+    display: inline-block;
+    margin: 5px;
 }
 
-
-.button{
-  background-color: #22262B;
-  border:0;
-  outline: 0;
+timers div {
+    display: inline-block;
+    margin: 0px 200px;
 }
 
-button: hover{
-  cursor: pointer;
-}
-/*
-/*#break, #count, button{
-  font-size: 40px; 
+button {
+    background-color: #E8E9EA;
+    border: 0;
+    outline: 0;
 }
 
-.title, .timer{
-  font-size: 50px;
-  margin-top: 60px;
+button: hover {
+    cursor: pointer;
+}
+
+#break,
+#timer {
+    font-size: 20px;
+}
+
+/*#minus-timer, #plus-timer
+{
+    margin-left: 40px;
 }*/
+
+.time {
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
